@@ -9,8 +9,8 @@ desc "set a colorscheme"
 task :set do |t, args|
   raise "Please supply a color scheme (scheme=foo)" if ENV['scheme'].nil?
   if ENV['profile'].nil? then
-    puts "Profile not specified; using 'Default'"
     ENV['profile'] = 'Default'
+    puts "Profile not specified; using '#{ENV['profile']}'"
   end
 
   # Load desired scheme
