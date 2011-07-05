@@ -25,6 +25,7 @@ task :set do |t, args|
   # Set some needed things
   gconf_set_profile_option ENV['profile'], 'bold_color_same_as_fg', 'false', 'bool'
   gconf_set_profile_option ENV['profile'], 'use_theme_colors', 'false', 'bool'
+  gconf_set_profile_option ENV['profile'], 'use_theme_background', 'false', 'bool'
 end
 
 def load_scheme(scheme)
