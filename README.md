@@ -14,12 +14,13 @@ a particular color scheme.
 
 Usage
 =====
-    rake set scheme=SolarizedLight profile=abe
+    rake set scheme=solarized_light profile=abe
 
 If a profile is not specified, the `Default` profile will be used:
 
-    rake set scheme=SolarizedLight
+    rake set scheme=solarized_light
 
 Adding a theme
 ==============
-Just follow the simple template of the files in the `colorschemes` directory.
+Just follow the simple template of the YML files in the `colorschemes`
+directory.
