@@ -1,0 +1,27 @@
+
+name: IR_Black
+
+palette:
+  - '#000000000000'
+  - '#FFFF6C6C6060'
+  - '#A8A8FFFF6060'
+  - '#FFFFFFFFB6B6'
+  - '#9696CBCBFEFE'
+  - '#FFFF7373FDFD'
+  - '#C6C6C5C5FEFE'
+  - '#EEEEEEEEEEEE'
+  - '#7C7C7C7C7C7C'
+  - '#FFFFB6B6B0B0'
+  - '#CECEFFFFACAC'
+  - '#FFFFFFFFCCCC'
+  - '#B6B6DCDCFFFF'
+  - '#FFFF9C9CFEFE'
+  - '#DFDFDFDFFEFE'
+  - '#FFFFFFFFFFFF'
+
+background_color: '#000000000000'
+
+foreground_color: '#F2F2F2F2F2F2'
+
+bold_color: '#FFFFFFFFFFFF'
+
